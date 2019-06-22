@@ -4,8 +4,8 @@
   "description": "My way of development in javascript ES6 standard",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d dist --presets es2015",
-    "watch": "babel src -d dist --presets es2015 -w"
+    "build": "babel src -d dist/scripts --presets es2015",
+    "watch": "babel src -d dist/scripts --presets es2015 -w"
   },
   "repository": {
     "type": "git",
